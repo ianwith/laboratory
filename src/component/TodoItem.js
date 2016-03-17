@@ -17,7 +17,7 @@ var TodoItem = React.createClass({
   render: function() {
     return (
       <label>
-        <input ref="done" type="checkbox" defaultChecked={this.state.done} onChange={this.onChange} />
+        <input ref="done" type="password" defaultChecked={this.state.done} onChange={this.onChange} />
         {this.props.name}
       </label>
     );
